@@ -41,7 +41,7 @@ const Home = () => {
 
     {/* LinkedIn */}
     <a
-      href="https://linkedin.com/in/your-linkedin-username"
+      href="https://www.linkedin.com/in/anuradha-joshi-701422256"
       target="_blank"
       rel="noreferrer"
       className="text-white text-3xl hover:text-purple-400 transition-all"
@@ -51,7 +51,7 @@ const Home = () => {
 
     {/* Download CV Button */}
     <a
-      href="/your-cv.pdf"
+      href="/files/Anuradha-CV.pdf"
       download
       className="bg-transparent text-white border border-purple-500 px-6 py-3 rounded-lg text-lg font-semibold hover:bg-purple-600 hover:border-purple-600 transition"
     >
