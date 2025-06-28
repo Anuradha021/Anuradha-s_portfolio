@@ -4,3 +4,81 @@
 body {
   font-family: 'Segoe UI', sans-serif;
 }
+.bg-dashed-purple {
+  background-image: repeating-linear-gradient(
+    to right,
+    #a855f7,
+    #a855f7 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-size: 12px 4px;
+}
+
+/* Top border (right direction / clockwise) */
+@keyframes dash-left {
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* Bottom border (left direction / anti-clockwise) */
+@keyframes dash-right {
+  to {
+    background-position: 200% 0;
+  }
+}
+
+/* Left border (downward direction / clockwise) */
+@keyframes dash-down {
+  to {
+    background-position: 0 200%;
+  }
+}
+
+/* Right border (upward direction / anti-clockwise) */
+@keyframes dash-up {
+  to {
+    background-position: 0 -200%;
+  }
+}
+
+.animate-dash-left {
+  animation: dash-left 2s linear infinite;
+}
+
+.animate-dash-right {
+  animation: dash-right 2s linear infinite;
+  background-image: repeating-linear-gradient(
+    to right,
+    #a855f7,
+    #a855f7 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-size: 12px 4px;
+}
+
+.animate-dash-down {
+  animation: dash-down 2s linear infinite;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #a855f7,
+    #a855f7 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-size: 4px 12px;
+}
+
+.animate-dash-up {
+  animation: dash-up 2s linear infinite;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    #a855f7,
+    #a855f7 6px,
+    transparent 6px,
+    transparent 12px
+  );
+  background-size: 4px 12px;
+}
