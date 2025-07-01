@@ -35,6 +35,16 @@ const Navbar = () => {
             Resume
           </NavLink>
         </li>
+          <li>
+          <NavLink
+            to="/work"
+            className={({ isActive }) =>
+              isActive ? "text-purple-400 font-semibold border-b-2 border-purple-500 pb-1" : "hover:text-purple-400"
+            }
+          >
+            Work
+          </NavLink>
+        </li>
         <li>
           <NavLink
             to="/contact"
@@ -45,6 +55,7 @@ const Navbar = () => {
             Contact
           </NavLink>
         </li>
+       
       </ul>
     </nav>
   );

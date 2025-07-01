@@ -6,6 +6,7 @@ import Services from './components/pages/Temp';
 import Contact from './components/pages/Contact';
 import Hero from './components/pages/Hero';
 import Resume from './components/pages/Resume';
+import Work from './components/pages/Work';
 
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
         
         <Route path="/services" element={<Services/>} />
         <Route path="/Resume" element={<Resume/>} />
+        <Route path="/work" element={<Work/>} />
+
         <Route path="/contact" element={<Contact/>} />
       </Routes>
     </Router>
