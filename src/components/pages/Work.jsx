@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import split from "../../assets/split.png";
 // Replace with your image
 import ProjectCard from "../ProjectCard";
+import movie_store from "../../assets/movie_store.png"
 const projects = [
   {
     number: 1,
@@ -20,9 +21,9 @@ const projects = [
     desc:
       "This a Web app having interactive UI, with attractive user interface where you can search and see ratings and descriptions of your favourite movie. All It to movies are fetched using IMDB Api and you can also provide your rating into it. is basically a Frontend project which | have created to learn to handle data fetching from API’s and also handle side effects, prop drilling, component creation in effective way so to improve code readability.",
     tech: "ReactJS, Node,Express, TailwindCSS",
-    image: split,
+    image: movie_store,
     liveLink: "https://your-live-demo-link.com",
-    githubLink: "https://github.com/Anuradha021/split_expense",
+    githubLink: "https://github.com/Anuradha021/Your_movie_store",
   },
   
   // Add more project objects here
