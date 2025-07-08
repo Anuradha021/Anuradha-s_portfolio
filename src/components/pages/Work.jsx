@@ -13,7 +13,7 @@ const projects = [
       "The Split Expense App is designed to help groups of friends, roommates, or teams manage shared expenses efficiently. Users can create or join groups, add expenses, and track who paid what. The app automatically calculates each member's balance and shows how much they owe or are owed. Users must be authenticated to access or contribute to any group, ensuring secure and private data handling. The interface is responsive and easy to use across all devices, making expense tracking simple and intuitive for users on the go.",
     tech: "ReactJS, Node,Express, TailwindCSS,MongoDB",
     image: split,
-    liveLink: "https://your-live-demo-link.com",
+    
     githubLink: "https://github.com/Anuradha021/split_expense",
   },
   {
@@ -23,11 +23,11 @@ const projects = [
       "This a Web app having interactive UI, with attractive user interface where you can search and see ratings and descriptions of your favourite movie. All It to movies are fetched using IMDB Api and you can also provide your rating into it. is basically a Frontend project which | have created to learn to handle data fetching from API’s and also handle side effects, prop drilling, component creation in effective way so to improve code readability.",
     tech: "ReactJS, Node,Express, TailwindCSS,IMDB API",
     image: movie_store,
-    liveLink: "https://your-live-demo-link.com",
+    
     githubLink: "https://github.com/Anuradha021/Your_movie_store",
   },
   {
-    number: 2,
+    number: 3,
     title: "Travel Bucket",
     desc:
       "Sometimes out of excitement of going on a trip, we forget the essential part of a trip that is planning. Here is the List where you can plan your trip as a checklist. Things you should take with you and tasks which you have to do. Mark them if added or completed so that no regret is left after reaching your destination. Arrange your list, add the quantity of items, and Sort them based on their names and order of addition to the list. ",
