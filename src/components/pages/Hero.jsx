@@ -29,7 +29,7 @@ const Home = () => {
           {/* Buttons and Socials */}
           <div className="mt-6 flex gap-4 flex-wrap items-center">
             <a
-              href="/files/Anuradha-CV.pdf"
+              href="/files/Anuradha_CV.pdf"
               download
               className="border-2 border-purple-500 text-sm px-4 py-2 rounded-full hover:bg-purple-600 transition-all flex items-center gap-2"
             >
